@@ -24,7 +24,7 @@ public class Tag1TenderSearchSteDef {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://livedemo.euniwizarde.com");
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 
 		// Navigate to the correct page based on the input string
 		if (pageName.equals("Tenders Due for Open")) {
