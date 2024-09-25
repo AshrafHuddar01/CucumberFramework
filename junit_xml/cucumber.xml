@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.391" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Login check on Livedemo" name="Successful Login scenario test - #1.1" time="11.664">
+<failure type="junit.framework.ComparisonFailure" message="expected:&lt;...emo.euniwizarde.com/[login/validateLogin]&gt; but was:&lt;...emo.euniwizarde.com/[HomePage/loadSiteHomePage/8AH7oGxpOmGSwpYyh3ovdg]&gt;">
+<![CDATA[junit.framework.ComparisonFailure: expected:<...emo.euniwizarde.com/[login/validateLogin]> but was:<...emo.euniwizarde.com/[HomePage/loadSiteHomePage/8AH7oGxpOmGSwpYyh3ovdg]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.StepDefinitionForLivedemoLogin.open_pki_login_page(StepDefinitionForLivedemoLogin.java:41)
+	at ✽.Open PKI login page(file:///C:/Users/LENOVO/eclipse-workspace2/Cucumber/src/test/resources/Features/ScenarioOutline1.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given given both valid credentials..........................................passed
+When enters "DEPTUSER002" and "Ashraf@12" and click Submit button...........passed
+Then Open PKI login page....................................................failed
+]]></system-out>
+</testcase>
+<testcase classname="Login check on Livedemo" name="Successful Login scenario test - #1.2" time="9.045">
+<failure type="junit.framework.ComparisonFailure" message="expected:&lt;...emo.euniwizarde.com/[login/validateLogin]&gt; but was:&lt;...emo.euniwizarde.com/[HomePage/loadSiteHomePage/8AH7oGxpOmGSwpYyh3ovdg]&gt;">
+<![CDATA[junit.framework.ComparisonFailure: expected:<...emo.euniwizarde.com/[login/validateLogin]> but was:<...emo.euniwizarde.com/[HomePage/loadSiteHomePage/8AH7oGxpOmGSwpYyh3ovdg]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.StepDefinitionForLivedemoLogin.open_pki_login_page(StepDefinitionForLivedemoLogin.java:41)
+	at ✽.Open PKI login page(file:///C:/Users/LENOVO/eclipse-workspace2/Cucumber/src/test/resources/Features/ScenarioOutline1.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given given both valid credentials..........................................passed
+When enters "DEPTUSER002" and "Ashraf@123" and click Submit button..........passed
+Then Open PKI login page....................................................failed
+]]></system-out>
+</testcase>
+</testsuite>
