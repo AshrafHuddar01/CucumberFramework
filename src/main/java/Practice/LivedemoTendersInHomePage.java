@@ -3,12 +3,12 @@ package Practice;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 
 
@@ -25,7 +25,7 @@ public class LivedemoTendersInHomePage {
 	        driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://livedemo.euniwizarde.com");
-	        Thread.sleep(3000);
+	        Thread.sleep(4000);
 
 	        // Navigate to the correct page based on the input string
 
