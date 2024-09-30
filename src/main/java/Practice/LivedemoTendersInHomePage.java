@@ -25,7 +25,7 @@ public class LivedemoTendersInHomePage {
 	        driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://livedemo.euniwizarde.com");
-	        Thread.sleep(2000);
+	        Thread.sleep(4000);
 
 	        // Navigate to the correct page based on the input string
 
