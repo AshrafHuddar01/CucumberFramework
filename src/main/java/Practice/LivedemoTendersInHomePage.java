@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class LivedemoTendersInHomePage {
 
-
+	
 	@Test
 	public  void test1() throws InterruptedException {
 		WebDriver driver;
@@ -24,7 +24,7 @@ public class LivedemoTendersInHomePage {
 	        driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://livedemo.euniwizarde.com");
-	        Thread.sleep(10000);
+	        Thread.sleep(3000);
 
 	        // Navigate to the correct page based on the input string
 
@@ -32,8 +32,8 @@ public class LivedemoTendersInHomePage {
 	    
 	        Thread.sleep(3000);
 	        
-	        String captcha = driver.findElement(By.id("generatedCaptcha")).getText();
-	        driver.findElement(By.id("captchainput")).sendKeys(captcha);
+	       // String captcha = driver.findElement(By.id("generatedCaptcha")).getText();
+	       // driver.findElement(By.id("captchainput")).sendKeys(captcha);
 	        driver.findElement(By.id("button")).click();
 	        Thread.sleep(3000); 
 	        
