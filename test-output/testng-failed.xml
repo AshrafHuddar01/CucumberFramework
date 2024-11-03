@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.LivedemoTendersInHomePage">
+      <class name="JavaPractice.LoginScript_PageFactory">
         <methods>
-          <include name="test1"/>
+          <include name="Setup"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- Practice.LivedemoTendersInHomePage -->
+      </class> <!-- JavaPractice.LoginScript_PageFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
